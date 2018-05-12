@@ -1,0 +1,23 @@
+{
+  "name": "keychain-promise",
+  "version": "1.0.0",
+  "description": "Cross-Platform SQLCipher based keychain",
+  "main": "index.js",
+  "dependencies": {
+      "cross-sqlcipher-promise": "1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/michael-ts/keychain-promise.git"
+  },
+  "author": "Michael Schmidt",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/michael-ts/keychain-promise/issues"
+  },
+  "homepage": "https://github.com/michael-ts/keychain-promise#readme"
+}
