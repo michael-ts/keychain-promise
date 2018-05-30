@@ -1,6 +1,6 @@
 {
   "name": "keychain-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cross-Platform SQLCipher based keychain",
   "main": "index.js",
   "dependencies": {

@@ -52,7 +52,7 @@ function UserKeyAdd(db_DB,name_String,key_String) {
 	})
 }
 
-function UserKeyRemove(db_DB,name_String,) {
+function UserKeyRemove(db_DB,name_String) {
     return db_DB.prepare("DELETE FROM keys WHERE name=?",[name_String])
 	.then(stmt=>stmt.run())
 	.then(stmt=> {
