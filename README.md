@@ -73,11 +73,10 @@ name.
 
 ## Add
 ```
-UserKeyAdd(db,name,key)
+UserKeyAdd(db,name,group)
 => Promise->bool
 ```
-Given an open SQLite database handle for the user's keychain, a name, and a key for that
-name, store that name/key pair in the keychain.  Returns a promise which resolves to a boolean value indicating success or failure.
+Given an open SQLite database handle for the user's keychain, a name, and the group that name belongs to, stores that name/group pair in the keychain.  If the group does not already exists, it is created with a random key.  Returns a promise which resolves to a boolean value indicating success or failure.
 
 
 ## Remove
